@@ -1,6 +1,8 @@
 <header class="site-header" role="banner">
-<img alt="Matias Acosta" height="400px;" id="blog_header" src="/assets/images/blog_header.png" style="display: block" width="1200px;"  margin-left:"auto">
-  <div class="wrapper">
+	<div class="article">
+<img alt="Matias Acosta" height="400px;" id="blog_header" src="/assets/images/blog_header.png"  width="1200px;">
+</div> 
+<div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
