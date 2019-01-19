@@ -3,6 +3,17 @@
 
 @import "{{ site.theme }}";
 
-.article{
+.banner-box{
   background-color: black;
+}
+
+.search-box {
+
+    float: right;
+    line-height: 54px;
+	padding-left: 30px;
+}
+
+.wrapper-wide{
+    max-width: calc(1300px - (30px * 2));
 }

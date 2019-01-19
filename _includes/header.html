@@ -1,11 +1,16 @@
 <header class="site-header" role="banner">
-	<div class="article">
+	<div class="banner-box">
 <img alt="Matias Acosta" height="400px;" id="blog_header" src="/assets/images/blog_header.png"  width="1200px;">
 </div> 
-<div class="wrapper">
+<div class="wrapper wrapper-wide">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+       <form class="search-box" action="{{ site.baseurl }}/search.html" method="get">
+  <label for="search-box">Search</label>
+  <input type="text" id="search-box" name="query">
+  <input type="submit" value="search">
+</form>
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -25,7 +30,8 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
-        </div>
+        
+</div>
       </nav>
     {%- endif -%}
   </div>
