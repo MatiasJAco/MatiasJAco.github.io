@@ -6,12 +6,17 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-       <form class="search-box" action="{{ site.baseurl }}/search.html" method="get">
-  <label for="search-box">Search</label>
+<form  action="{{ site.baseurl }}/search.html" method="get">
   <input type="text" id="search-box" name="query">
-  <input type="submit" value="search">
+   <i class="fa fa-search"></i>
+   <!--<input type="submit" value="search">-->
 </form>
-
+<!--
+<form action="">
+  <input type="search">
+  <i class="fa fa-search"></i>
+</form>
+-->
     {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
