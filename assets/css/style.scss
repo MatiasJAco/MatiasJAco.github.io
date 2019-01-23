@@ -84,7 +84,19 @@ text-decoration: none;
   margin-top: -20px;
   }
 
-//SERACHBAR
+.menu-container{
+	width: auto;
+
+	margin-right: auto;
+
+	margin-left: auto;
+
+	padding-left: 15px;
+
+	padding-right: 15px;
+}
+
+//SEArCHBAR
 form{
     position: relative;
     top: 50%;
@@ -146,4 +158,19 @@ form:hover input{
 form:hover .fa{
     background: #07051a;
     color: white;
+}
+
+//ABOUT
+.bottom {
+
+    padding: 0 20px;
+    margin-bottom: 17px;
+
+}
+
+.texto-profile{
+	font-family: Helvetica;
+	text-align:justify;
+	font-size: 16px;
+
 }
