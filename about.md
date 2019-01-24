@@ -43,7 +43,7 @@ permalink: /about/
 -->
 <br>
 
-<div class="texto-profile">
+<div class="texto-profile well" id="post-background">
 <p>Soy un ingeniero inform&aacute;tico nacido en Buenos Aires, Argentina. Actualmente me desempe&ntilde;o como consultor IT trabajando con diversas herramientas del ecosistema IT tocando temas de monitoreo, desarrollo, procesos, despliegues y automatizaci&oacute;n.</p>
 <p>A su vez, cuando tengo tiempo desarrollo scripts utilitarios en diversos lenguajes (Bash, Python, Perl, etc.) para despuntar mi vicio como desarrollador inculcado en mis d&iacute;as de universitario en <a title="FIUBA" href="http://www.fi.uba.ar/" target="_blank" rel="noopener">FIUBA</a>.</p>
 <p>Entre mis intereses adem&aacute;s de la inform&aacute;tica se encuentran el cine, viajar, video juegos y deportes.</p>
