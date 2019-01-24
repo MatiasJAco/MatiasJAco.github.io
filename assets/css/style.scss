@@ -9,6 +9,14 @@
   background-color: black;
 }
 
+
+.banner-img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
 .search-box {
 
     float: right;
@@ -101,6 +109,7 @@ form{
     padding: 5px;
     float: right;
     margin-top: 5px;
+    left:5px;
 }
 
 input{
