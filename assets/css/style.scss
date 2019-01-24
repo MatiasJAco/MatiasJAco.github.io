@@ -28,7 +28,11 @@
     max-width: calc(1300px - (30px * 2));
 }
 
+.site-nav-mod{
 
+	position:inherit;
+
+}
   nav a {
     display: block;
     float: left;
